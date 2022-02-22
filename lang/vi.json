@@ -30,5 +30,7 @@
     "Student Name": "Tên học sinh",
     "Class Name": "Tên lớp",
     "Select Student": "Chọn học sinh",
-    "Select Class": "Chọn lớp"
+    "Select Class": "Chọn lớp",
+    "Delete class mess": "Bạn có muốn xoá lớp này không",
+    "Delete student mess": "Bạn có muốn xoá học sinh này không"
 }

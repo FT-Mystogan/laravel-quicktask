@@ -30,7 +30,8 @@
                                     <form style="display: flex; justify-content: center"
                                         action="{{ route('classes.destroy', ['class' => $class]) }}" method="POST">
                                         @method('DELETE')
-                                        <button type="submit" class="btn btn-warning btn-sm">{{ __('Delete') }}</button>
+                                        <button type="submit" onclick=" return confirm('{{ __('Delete student mess') }}')"
+                                            class="btn btn-warning btn-sm">{{ __('Delete') }}</button>
                                         @csrf
                                     </form>
                                 </td>

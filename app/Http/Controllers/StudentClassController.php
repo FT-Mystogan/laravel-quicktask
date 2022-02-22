@@ -46,8 +46,8 @@ class StudentClassController extends Controller
         $class_id = $request->input('class');
         $students = Student::all();
         $classes = Lop::all();
-        $tmp = DB::table('student_class')->where('student_id', $student_id)->where('class_id', $class_id)->count();
-        if ($tmp != 1) {
+        $count = DB::table('student_class')->where('student_id', $student_id)->where('class_id', $class_id)->count();
+        if ($count == 0) {
             $data = 'Thêm thành công';
             DB::table('student_class')->insert([
                 'student_id' => $student_id,
