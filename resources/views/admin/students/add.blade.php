@@ -30,7 +30,7 @@
                                 <label>{{ __('Gender') }}</label>
                             </td>
                             <td>
-                                <input type="text" placeholder="{{ __('Enter Gender..') }}" class="medium"
+                                <input type="text" placeholder="{{ __('Enter Gender...') }}" class="medium"
                                     name="gender" id="gender" />
                                 @error('gender')
                                     <span style="color: red">{{ $message }}</span>

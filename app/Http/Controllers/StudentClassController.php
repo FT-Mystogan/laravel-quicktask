@@ -44,20 +44,21 @@ class StudentClassController extends Controller
     {
         $student_id = $request->input('student');
         $class_id = $request->input('class');
-        $tmp = DB::table('student_class')->where('student_id', $student_id)->and('class_id', $class_id)->count();
+        $students = Student::all();
+        $classes = Lop::all();
+        $tmp = DB::table('student_class')->where('student_id', $student_id)->where('class_id', $class_id)->count();
         if ($tmp != 1) {
             $data = 'Thêm thành công';
-            $title = 'Đăng ký lớp học';
             DB::table('student_class')->insert([
                 'student_id' => $student_id,
                 'class_id' => $class_id,
             ]);
 
-            return view('admin.student_class.add', compact('title', 'data'));
+            return view('admin.student_class.add', compact('students', 'classes', 'data'));
         }
         $data = 'Học sinh đã đăng ký lớp này rồi';
 
-        return view('admin.student_class.add', compact('data'));
+        return view('admin.student_class.add', compact('students', 'classes', 'data'));
     }
 
     /**
