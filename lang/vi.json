@@ -7,6 +7,7 @@
     "Add Class": "Thêm lớp",
     "Class List": "Danh sách lớp",
     "Dashboard": "Bảng điều khiển",
+    "Other Option": "Tuỳ chọn khác",
     "User Profile": "Hồ sơ cá nhân",
     "Change Password": "Thay đổi mật khẩu",
     "Enter Class Name...": "Nhập vào tên lớp...",
@@ -23,5 +24,11 @@
     "Enter Gender...": "Nhập vào giới tính...",
     "Enter Age...": "Nhập vào tuổi...",
     "Enter Address...": "Nhập vào địa chỉ...",
-    "Edit Student": "Sửa thông tin học sinh"
+    "Edit Student": "Sửa thông tin học sinh",
+    "Register Class": "Đăng ký lớp",
+    "Add New Class": "Thêm mới lớp",
+    "Student Name": "Tên học sinh",
+    "Class Name": "Tên lớp",
+    "Select Student": "Chọn học sinh",
+    "Select Class": "Chọn lớp"
 }

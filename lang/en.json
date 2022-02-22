@@ -23,5 +23,11 @@
     "Enter Gender...": "Enter Gender...",
     "Enter Age...": "Enter Age...",
     "Enter Address...": "Enter Address...",
-    "Edit Student": "Edit Student"
+    "Edit Student": "Edit Student",
+    "Register Class": "Register Class",
+    "Add New Class": "Add New Class",
+    "Student Name": "Student Name",
+    "Class Name": "Class Name",
+    "Select Student": "Select Student",
+    "Select Class": "Select Class"
 }

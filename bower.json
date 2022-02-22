@@ -1,0 +1,21 @@
+{
+  "name": "laravel-quicktask",
+  "description": "",
+  "main": "",
+  "authors": [
+    "FT-Mystogan <viponlyc@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FT-Mystogan/laravel-quicktask",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "laravel-quicktask": "https://github.com/FT-Mystogan/bower.git",
+    "font-awesome.min": "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  }
+}
