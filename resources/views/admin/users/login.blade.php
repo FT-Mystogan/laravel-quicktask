@@ -25,7 +25,7 @@
                 @csrf
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="saveLogin" name="saveLogin">
-                    <label class="form-check-label" for="saveLogin">{{ __('Remerber me') }}</label>
+                    <label class="form-check-label" for="saveLogin">{{ __('Remember me') }}</label>
                 </div>
                 <div>
                     <button style="font-size: 16px;"> <i class="fa fa-send"></i>{{ __('Login') }}</button>

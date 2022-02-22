@@ -64,7 +64,7 @@ class StudentController extends Controller
     {
         $classes = DB::table('students')
             ->join('student_class', 'students.id', '=', 'student_class.student_id')
-            ->join('classes', 'student_class.student_id', '=', 'classes.id')
+            ->join('classes', 'student_class.class_id', '=', 'classes.id')
             ->where('students.id', $id)
             ->select('students.name as student_name', 'classes.name')
             ->get();
