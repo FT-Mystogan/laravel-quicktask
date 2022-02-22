@@ -49,7 +49,8 @@
         </div>
         <div class="grid_12">
             <ul class="nav main">
-                <li class="ic-dashboard"><a href="index.php"><span>{{ __('Dashboard') }}</span></a> </li>
+                <li class="ic-dashboard"><a href="{{ route('home') }}"><span>{{ __('Dashboard') }}</span></a>
+                </li>
                 <li class="ic-form-style"><a href=""><span>{{ __('User Profile') }}</span></a></li>
                 <li class="ic-typography"><a href="changepassword.php"><span>{{ __('Change Password') }}</span></a>
                 </li>
@@ -62,19 +63,19 @@
             <div class="box sidemenu">
                 <div class="block" id="section-menu">
                     <ul class="section menu">
-                        <li><a class="menuitem">{{ __('Class Options') }}</a>
+                        <li><a class="menuitem">{{ __('Class Option') }}</a>
                             <ul class="submenu">
                                 <li><a href="{{ route('classes.create') }}">{{ __('Add Class') }}</a> </li>
                                 <li><a href="{{ route('classes.index') }}">{{ __('Class List') }}</a> </li>
                             </ul>
                         </li>
-                        <li><a class="menuitem">{{ __('Student Options') }}</a>
+                        <li><a class="menuitem">{{ __('Student Option') }}</a>
                             <ul class="submenu">
                                 <li><a href="{{ route('students.create') }}">{{ __('Add Student') }}</a> </li>
                                 <li><a href="{{ route('students.index') }}">{{ __('Student List') }}</a> </li>
                             </ul>
                         </li>
-                        <li><a class="menuitem">{{ __('Other Options') }}</a>
+                        <li><a class="menuitem">{{ __('Other Option') }}</a>
                             <ul class="submenu">
                                 <li><a href="{{ route('student_class.create') }}">{{ __('Register Class') }}</a>
                                 </li>

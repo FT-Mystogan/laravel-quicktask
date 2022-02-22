@@ -13,7 +13,7 @@ class UserController extends Controller
     public function login()
     {
 
-        return view('admin.users.login', compact('title'));
+        return view('admin.users.login');
     }
 
     public function store(UserStoreRequest $request)
